@@ -4,7 +4,7 @@ This is a project to predict Singapore HDB resale prices based on features of th
 This is my first proper project. While pretty simple, I have learned a lot from this project. Here are 2 main takeaways:
 1) Importance of a dataset
 
-My model was only able to predict housing prices values with an error range of about $48k - which is not very useful. I believe this is due to the data used. In the importance plot it seems that the top 3 features are more important affect the model far more than the rest. Furthermore, a one-hot encoding of the locations might not be very suitable. Perhaps finding the distance using longitudes and latitudes from the flat to the central business district could be more informative.
+My model is able to predict housing prices values with an error range of about $48k - considering the median price of a resale flat is about 500k, the error rate is about 8%. However, I feel that this could be further improved. In the importance plot it seems that the top 3 features are more important affect the model far more than the rest. Furthermore, a one-hot encoding of the locations might not be very suitable. Perhaps finding the distance using longitudes and latitudes from the flat to the central business district could be more informative.
 
 2) Writing code in a functional manner
 
